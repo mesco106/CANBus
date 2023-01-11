@@ -1,0 +1,58 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/manescob/ResearchProjects/Exoskeleton/CANBus/TX/include",
+                "/home/manescob/ResearchProjects/Exoskeleton/CANBus/TX/src",
+                "/home/manescob/ResearchProjects/Exoskeleton/CANBus/TX/lib/MCP_CAN_lib-master",
+                "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/manescob/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/manescob/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/manescob/ResearchProjects/Exoskeleton/CANBus/TX/include",
+                    "/home/manescob/ResearchProjects/Exoskeleton/CANBus/TX/src",
+                    "/home/manescob/ResearchProjects/Exoskeleton/CANBus/TX/lib/MCP_CAN_lib-master",
+                    "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/manescob/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/manescob/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60105",
+                "ARDUINO_AVR_NANO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/manescob/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
